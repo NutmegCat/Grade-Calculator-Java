@@ -49,9 +49,6 @@ class gradeConverter{
         //write if 100%
         if (Z == 100) {
             try {
-                //get directory
-                //String x = System.getProperty("user.home");
-
                 //write file
                 FileWriter congrats = new FileWriter("congratulations.txt");
                 congrats.write("cOnGrAtUlAtIoNs :D");
@@ -77,9 +74,6 @@ class gradeConverter{
             }
         } else {
             try {
-                //get directory
-                //String x = System.getProperty("user.home");
-
                 //write file
                 FileWriter oOf = new FileWriter("oOf.txt");
                 oOf.write("oOf");
