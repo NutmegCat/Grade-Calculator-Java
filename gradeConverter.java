@@ -24,7 +24,7 @@ class gradeConverter{
         Z = In.getInt();
 
         convertToGrade(Z);
-        makeFile();
+        readWriteFile();
     }
 
     public static void convertToGrade(int usermark) {
@@ -45,7 +45,7 @@ class gradeConverter{
         }
     }
 
-    public static void makeFile() throws IOException {
+    public static void readWriteFile() throws IOException {
         //write if 100%
         if (Z == 100) {
             try {
